@@ -1,0 +1,202 @@
+{
+  "address": "0xB482fa20Ed43891dEef5E21C961CC613b9381332",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "NotEnoughFund",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NotOwner",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "donator",
+          "type": "address"
+        }
+      ],
+      "name": "DonationAdded",
+      "type": "event"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "fallback"
+    },
+    {
+      "inputs": [],
+      "name": "fund",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "index",
+          "type": "uint256"
+        }
+      ],
+      "name": "getDonator",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getMinimumAmountToFund",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "s_addressToAmount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "s_donators",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "withdraw",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "transactionHash": "0x1a2ddbca7c882929051c62062d93501c6629466f9e01433a642dfab62cd66ad8",
+  "receipt": {
+    "to": null,
+    "from": "0xB5228D9C95be809D4e6766C0e85c21cFD7321369",
+    "contractAddress": "0xB482fa20Ed43891dEef5E21C961CC613b9381332",
+    "transactionIndex": 5,
+    "gasUsed": "463644",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xa76025047593a2be0893a3475a67d111098567d2485d04f01ab62df48e0886df",
+    "transactionHash": "0x1a2ddbca7c882929051c62062d93501c6629466f9e01433a642dfab62cd66ad8",
+    "logs": [],
+    "blockNumber": 9682240,
+    "cumulativeGasUsed": "945282",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "86e86b9853b6a30f01ebca596981fa7c",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"NotEnoughFund\",\"type\":\"error\"},{\"inputs\":[],\"name\":\"NotOwner\",\"type\":\"error\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"donator\",\"type\":\"address\"}],\"name\":\"DonationAdded\",\"type\":\"event\"},{\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"inputs\":[],\"name\":\"fund\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"index\",\"type\":\"uint256\"}],\"name\":\"getDonator\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getMinimumAmountToFund\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"s_addressToAmount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"s_donators\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"withdraw\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"stateMutability\":\"payable\",\"type\":\"receive\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Charity.sol\":\"Charity\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/Charity.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\r\\npragma solidity ^0.8.4;\\r\\n\\r\\nerror NotOwner();\\r\\nerror NotEnoughFund();\\r\\n\\r\\ncontract Charity {\\r\\n\\r\\n    mapping(address => uint256) public s_addressToAmount;\\r\\n    address[] public s_donators;\\r\\n\\r\\n    uint256 private constant MIN_FUND = 0.001 ether;\\r\\n    address private immutable i_owner;\\r\\n\\r\\n    event DonationAdded(address indexed donator);\\r\\n\\r\\n    constructor() {\\r\\n        i_owner = msg.sender;\\r\\n    }\\r\\n\\r\\n    function fund () public payable {\\r\\n        if (msg.value < MIN_FUND) {revert NotEnoughFund();}\\r\\n        s_addressToAmount[msg.sender] += msg.value;\\r\\n        s_donators.push(msg.sender);\\r\\n        emit DonationAdded(msg.sender);\\r\\n    }\\r\\n\\r\\n    function withdraw() public onlyOwner {\\r\\n        (bool callSuccess,) = payable(msg.sender).call{value: address(this).balance}(\\\"\\\");\\r\\n\\r\\n        require(callSuccess, \\\"Call failed\\\"); \\r\\n    }\\r\\n\\r\\n    modifier onlyOwner() {\\r\\n        if (msg.sender != i_owner) {revert NotOwner();}\\r\\n        _;\\r\\n    }\\r\\n\\r\\n    function getDonator(uint256 index) public view returns(address){\\r\\n        return s_donators[index];\\r\\n    }\\r\\n\\r\\n    function getMinimumAmountToFund() public pure returns(uint256) {\\r\\n        return MIN_FUND;\\r\\n    }\\r\\n\\r\\n    receive() external payable {\\r\\n        fund();\\r\\n    }\\r\\n\\r\\n    fallback() external payable {\\r\\n        fund();\\r\\n    }\\r\\n\\r\\n}\",\"keccak256\":\"0x5f187936c8a1e14593bff0a3c1715643212de9fb397d483b06aa58cb968ffb91\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x60a060405234801561001057600080fd5b503373ffffffffffffffffffffffffffffffffffffffff1660808173ffffffffffffffffffffffffffffffffffffffff1660601b8152505060805160601c61077361006660003960006102b501526107736000f3fe6080604052600436106100595760003560e01c80633ccfd60b14610072578063569658bc146100895780637b66e17f146100b4578063b60d4288146100f1578063b7ef82c8146100fb578063d92ae1dc1461013857610068565b3661006857610066610175565b005b610070610175565b005b34801561007e57600080fd5b506100876102b3565b005b34801561009557600080fd5b5061009e6103e7565b6040516100ab91906105eb565b60405180910390f35b3480156100c057600080fd5b506100db60048036038101906100d6919061050e565b6103f6565b6040516100e891906105b0565b60405180910390f35b6100f9610175565b005b34801561010757600080fd5b50610122600480360381019061011d91906104e5565b610464565b60405161012f91906105eb565b60405180910390f35b34801561014457600080fd5b5061015f600480360381019061015a919061050e565b61047c565b60405161016c91906105b0565b60405180910390f35b66038d7ea4c680003410156101b6576040517f4a531cfd00000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b346000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282546102049190610622565b925050819055506001339080600181540180825580915050600190039060005260206000200160009091909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055503373ffffffffffffffffffffffffffffffffffffffff167f5aa98fe7e121245c6f169ffcef646dcac75a1e2e67e32f10b62fc540fda9735a60405160405180910390a2565b7f000000000000000000000000000000000000000000000000000000000000000073ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610338576040517f30cd747100000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b60003373ffffffffffffffffffffffffffffffffffffffff164760405161035e9061059b565b60006040518083038185875af1925050503d806000811461039b576040519150601f19603f3d011682016040523d82523d6000602084013e6103a0565b606091505b50509050806103e4576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016103db906105cb565b60405180910390fd5b50565b600066038d7ea4c68000905090565b600060018281548110610432577f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b60006020528060005260406000206000915090505481565b6001818154811061048c57600080fd5b906000526020600020016000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000813590506104ca8161070f565b92915050565b6000813590506104df81610726565b92915050565b6000602082840312156104f757600080fd5b6000610505848285016104bb565b91505092915050565b60006020828403121561052057600080fd5b600061052e848285016104d0565b91505092915050565b61054081610678565b82525050565b6000610553600b83610611565b915061055e826106e3565b602082019050919050565b6000610576600083610606565b91506105818261070c565b600082019050919050565b610595816106aa565b82525050565b60006105a682610569565b9150819050919050565b60006020820190506105c56000830184610537565b92915050565b600060208201905081810360008301526105e481610546565b9050919050565b6000602082019050610600600083018461058c565b92915050565b600081905092915050565b600082825260208201905092915050565b600061062d826106aa565b9150610638836106aa565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0382111561066d5761066c6106b4565b5b828201905092915050565b60006106838261068a565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b7f43616c6c206661696c6564000000000000000000000000000000000000000000600082015250565b50565b61071881610678565b811461072357600080fd5b50565b61072f816106aa565b811461073a57600080fd5b5056fea264697066735822122029dcaf283bb3d07b0a1373e8a709d0377b81c687be2747704656bc0b0a54353464736f6c63430008040033",
+  "deployedBytecode": "0x6080604052600436106100595760003560e01c80633ccfd60b14610072578063569658bc146100895780637b66e17f146100b4578063b60d4288146100f1578063b7ef82c8146100fb578063d92ae1dc1461013857610068565b3661006857610066610175565b005b610070610175565b005b34801561007e57600080fd5b506100876102b3565b005b34801561009557600080fd5b5061009e6103e7565b6040516100ab91906105eb565b60405180910390f35b3480156100c057600080fd5b506100db60048036038101906100d6919061050e565b6103f6565b6040516100e891906105b0565b60405180910390f35b6100f9610175565b005b34801561010757600080fd5b50610122600480360381019061011d91906104e5565b610464565b60405161012f91906105eb565b60405180910390f35b34801561014457600080fd5b5061015f600480360381019061015a919061050e565b61047c565b60405161016c91906105b0565b60405180910390f35b66038d7ea4c680003410156101b6576040517f4a531cfd00000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b346000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282546102049190610622565b925050819055506001339080600181540180825580915050600190039060005260206000200160009091909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055503373ffffffffffffffffffffffffffffffffffffffff167f5aa98fe7e121245c6f169ffcef646dcac75a1e2e67e32f10b62fc540fda9735a60405160405180910390a2565b7f000000000000000000000000000000000000000000000000000000000000000073ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610338576040517f30cd747100000000000000000000000000000000000000000000000000000000815260040160405180910390fd5b60003373ffffffffffffffffffffffffffffffffffffffff164760405161035e9061059b565b60006040518083038185875af1925050503d806000811461039b576040519150601f19603f3d011682016040523d82523d6000602084013e6103a0565b606091505b50509050806103e4576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016103db906105cb565b60405180910390fd5b50565b600066038d7ea4c68000905090565b600060018281548110610432577f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050919050565b60006020528060005260406000206000915090505481565b6001818154811061048c57600080fd5b906000526020600020016000915054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000813590506104ca8161070f565b92915050565b6000813590506104df81610726565b92915050565b6000602082840312156104f757600080fd5b6000610505848285016104bb565b91505092915050565b60006020828403121561052057600080fd5b600061052e848285016104d0565b91505092915050565b61054081610678565b82525050565b6000610553600b83610611565b915061055e826106e3565b602082019050919050565b6000610576600083610606565b91506105818261070c565b600082019050919050565b610595816106aa565b82525050565b60006105a682610569565b9150819050919050565b60006020820190506105c56000830184610537565b92915050565b600060208201905081810360008301526105e481610546565b9050919050565b6000602082019050610600600083018461058c565b92915050565b600081905092915050565b600082825260208201905092915050565b600061062d826106aa565b9150610638836106aa565b9250827fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0382111561066d5761066c6106b4565b5b828201905092915050565b60006106838261068a565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b7f43616c6c206661696c6564000000000000000000000000000000000000000000600082015250565b50565b61071881610678565b811461072357600080fd5b50565b61072f816106aa565b811461073a57600080fd5b5056fea264697066735822122029dcaf283bb3d07b0a1373e8a709d0377b81c687be2747704656bc0b0a54353464736f6c63430008040033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 9,
+        "contract": "contracts/Charity.sol:Charity",
+        "label": "s_addressToAmount",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_mapping(t_address,t_uint256)"
+      },
+      {
+        "astId": 12,
+        "contract": "contracts/Charity.sol:Charity",
+        "label": "s_donators",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_array(t_address)dyn_storage"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_array(t_address)dyn_storage": {
+        "base": "t_address",
+        "encoding": "dynamic_array",
+        "label": "address[]",
+        "numberOfBytes": "32"
+      },
+      "t_mapping(t_address,t_uint256)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => uint256)",
+        "numberOfBytes": "32",
+        "value": "t_uint256"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
